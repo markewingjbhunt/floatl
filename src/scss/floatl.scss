@@ -10,6 +10,7 @@ $active-color: hsl(209, 82%, 54%);
 
 .floatl--focused .floatl__label {
   color: $active-color;
+  top:1px;
 }
 
 .floatl--active {
@@ -70,3 +71,13 @@ $active-color: hsl(209, 82%, 54%);
 input.floatl__input {
   height: 42px;
 }
+
+.floatl__label {
+    visibility: visible;
+    opacity: 1;
+    font-size: inherit;
+}
+.floatl--active .floatl__label {
+    font-size: 10px;
+} 
+
